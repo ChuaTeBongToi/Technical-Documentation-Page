@@ -20,7 +20,7 @@ nav {
     border-color: darkgray;
 }
 
-.title {
+.brand {
     margin: 20px;
     display: block;
     font-size: 28px;
@@ -28,19 +28,19 @@ nav {
     font-weight: 400;
 }
 
-a {
+.main-nav a {
     padding: 12px 30px;
     display: block;
     text-decoration: none;
     color: #4d4e53;
     cursor: pointer;
 }
-
-a:active {
+ 
+.main-nav a:active {
     color: black;
 }
 
-a:hover {
+.main-nav a:hover {
     background-color: lightgray;
 }
 
@@ -53,4 +53,75 @@ a:hover {
     font-size: 18px;
     width: 100%;
     border-top: 1px solid;
+}
+
+.content {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    margin-left: 340px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.content .title {
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: "Arial";
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.content li {
+    font-size: 17px;
+}
+
+.content p {
+    font-family: "Open-sans";
+    color: #4d4e53;
+    margin-top: 20px;
+}
+
+.content li {
+    font-family: "Open-sans";
+    color: #4d4e53;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.code {
+    margin-top: 10px;
+    margin-left:15px;
+}
+
+.code {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.code p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: "Inconsolata";
+    font-size: 15px;
+}
+
+.second-list {
+    margin-left: 55px;
+}
+
+#reference {
+    margin-left:20px;
+}
+.text a {
+    color: blue;
 }
